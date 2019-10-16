@@ -1,0 +1,34 @@
+<script>
+var num1 = 13;
+var num2 = 12;
+var op = "+";
+
+var num1 = parseInt(window.prompt("Enter 1st number: "));
+var op = window.prompt("Enter operation: ")
+var num2 = parseInt(window.prompt("Enter 2nd number: "));
+
+
+if (op == "+")
+{
+  document.write(num1+num2)
+}
+  else if (op == "-")
+  {
+  document.write(num1-num2)
+  }
+    else if (op == "*")
+    {
+      document.write(num1*num2)
+    }
+      else if (op == "/")
+      {
+        document.write(num1/num2)
+      }
+
+// we do three else/ifs after the
+//if instead of four consecutive
+//if commands because if more than
+//one 'if' applies, the computer
+//would run more than one command
+
+</script>

@@ -1,0 +1,39 @@
+
+body {
+  font-family: courier;
+  background-image: url("https://wallpaperaccess.com/full/130931.jpg");
+  background-size: cover;
+}
+.textcont{
+
+}
+//.imgcont{
+//opacity: 1;
+//}
+
+.titlecontainer {
+  display: flex;
+  background-color: white;
+  opacity: 0.75;
+  padding: 15px;
+  justify-content: center;
+}
+
+h1 {
+  color: Maroon;
+}
+
+.maincontainer {
+  display: flex;
+  background-color: white;
+  opacity: 0.75;
+  padding: 15px;
+  justify-content: space-between;
+
+}
+
+
+
+#para1 {
+  color:DarkOliveGreen
+}
